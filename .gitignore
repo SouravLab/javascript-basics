@@ -1,0 +1,213 @@
+# ============================================================================
+# NODE.JS & NPM
+# ============================================================================
+# Dependency directories - contains thousands of files from npm install
+node_modules/
+
+# NPM lock files - prevent merge conflicts, handled by package.json
+package-lock.json
+npm-shrinkwrap.json
+
+# Yarn lock file - if using Yarn package manager
+yarn.lock
+
+# PNPM lock file - if using PNPM package manager
+pnpm-lock.yaml
+
+# Logs from npm, yarn, pnpm
+npm-debug.log*
+npm-debug.log*.json
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================================
+# BUILD & DIST FOLDERS
+# ============================================================================
+# Compiled/bundled output - auto-generated, not needed in repo
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.parcel-cache
+.cache
+
+
+# ============================================================================
+# ENVIRONMENT & CONFIGURATION FILES
+# ============================================================================
+# Environment variables with sensitive data (API keys, passwords, etc.)
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+
+# Configuration files with sensitive data
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================================
+# IDE & EDITOR FILES
+# ============================================================================
+# VS Code settings & extensions (personal to each user)
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom Editor
+.atom/
+.atomrc
+
+# Visual Studio
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# Vim & Neovim
+.vim/
+.neovim/
+*.swp
+*.swo
+*~
+.nvimrc
+
+
+# ============================================================================
+# OS SPECIFIC FILES
+# ============================================================================
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+
+# ============================================================================
+# TESTING & COVERAGE
+# ============================================================================
+# Jest coverage reports
+coverage/
+.nyc_output/
+
+# Mocha test reports
+test/coverage/
+
+# Cypress test artifacts
+cypress/screenshots/
+cypress/videos/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+
+# ============================================================================
+# TEMPORARY & DEBUG FILES
+# ============================================================================
+# Temporary files created during development
+*.tmp
+*.temp
+.tmp/
+tmp/
+temp/
+
+# Debug logs
+debug.log
+*.log
+
+# Crash dumps
+*.stackdump
+
+
+# ============================================================================
+# BUNDLE & MINIFIED FILES (if creating bundles)
+# ============================================================================
+*.min.js
+*.min.css
+*.bundle.*
+
+
+# ============================================================================
+# DEPENDENCY SPECIFIC FILES
+# ============================================================================
+# TypeScript compiled files (if using TypeScript)
+*.tsbuildinfo
+.tsbuildinfo
+
+# Babel cache
+.babelrc.js
+.babelrc.json
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettierignore
+
+
+# ============================================================================
+# DEVELOPMENT SERVER FILES
+# ============================================================================
+# Local development server
+.webpack-dev-server/
+
+# Hot module reload
+.hot-update.*
+
+
+# ============================================================================
+# VSCODE SPECIFIC (Additional)
+# ============================================================================
+# VS Code workspace settings (personal)
+.code-workspace
+
+# VS Code debugging
+.vscode-test/
+.vscode-test-downloads/
+
+
+# ============================================================================
+# MISCELLANEOUS
+# ============================================================================
+# Mac files
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+.com.apple.timemachine.supported

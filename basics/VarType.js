@@ -73,7 +73,7 @@ let tes;
 //tes = 10;
 //console.log(tes); // undefined
 
-console.log("=======================const..values======================="); 
+console.log("=======================const....values======================="); 
 // const t2 =10;
 // t2 =20;// TypeError: Assignment to constant variable. reassignment is not allowed with const.
 // console.log(t2);
