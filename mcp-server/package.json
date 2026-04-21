@@ -1,0 +1,25 @@
+{
+  "name": "javascript-basics-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for analyzing and modifying JavaScript code",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "javascript",
+    "code-analysis"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
