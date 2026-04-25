@@ -3,15 +3,10 @@
 const text = 'programming';
 const letterToCount = 'g';
 
-const counts = {}; // store how many times each character appears
-
+const counts = {};
 for (let i = 0; i < text.length; i++) {
   const ch = text[i];
-  if (counts[ch]) {
-    counts[ch] = counts[ch] + 1;
-  } else {
-    counts[ch] = 1;
-  }
+  counts[ch] = counts[ch] ? counts[ch] + 1 : 1;
 }
 
 const duplicates = {};
