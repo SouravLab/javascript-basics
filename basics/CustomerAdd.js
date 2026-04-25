@@ -25,3 +25,6 @@ for (let i = 0; i < text.length; i++) {
 console.log('Text:', text);
 console.log('Duplicate characters:', duplicates);
 console.log("Count of '" + letterToCount + "':", targetCount);
+
+// hello this is sourav
+

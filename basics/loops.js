@@ -207,6 +207,7 @@ console.log("\nUsing console.log (automatic newline):");
 console.log('Each');            // New line
 console.log('Line');            // New line  
 console.log('Automatically');   // New line
+  
 
 
 
