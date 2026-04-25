@@ -1,10 +1,9 @@
 // Beginner-friendly program to find duplicate characters and count one character
 
-const text = 'programming';
-const letterToCount = 'g';
+const text = 'hello world';
+const letterToCount = 'l';
 
-const counts = {}; // store how many times each character appears
-
+const counts = {};
 for (let i = 0; i < text.length; i++) {
   const ch = text[i];
   if (counts[ch]) {
