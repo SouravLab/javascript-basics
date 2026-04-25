@@ -13,6 +13,7 @@ test();
 console.log(a);// 10 global variable a is not affected by the function test() and its inner block..
 
 console.log("===============================================");     
+console.log("===============================================");    
 //redclaration is allowed in JavaScript, but it can lead to confusion and bugs. 
 // When you redeclare a variable using var, it will overwrite the previous declaration and value.
 //  In the example below, we declare a variable number and assign it a value of 10. Then we redeclare the same variable number and assign it a new value of 20. 
@@ -28,7 +29,7 @@ console.log(num)// undefined
 var num = 10;
 //console .log(num); // 10
 
-console.log("=======================let concept========================");    
+console.log("=======================let concept==========================");    
 
 // let is always block scope
 let b =20;//global variable
